@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Agentforce Authoring Bundle -->
+    <types>
+        <members>Credit_Card_Analyzer</members>
+        <name>AiAuthoringBundle</name>
+    </types>
+
+    <!-- Apex Controller for Offers -->
+    <types>
+        <members>OfferController</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Autolaunched Decision Flow -->
+    <types>
+        <members>Send_Decision_Email</members>
+        <name>Flow</name>
+    </types>
+
+    <!-- Custom Field on Account updated by the Agent -->
+    <types>
+        <members>Account.CC_Status__c</members>
+        <name>CustomField</name>
+    </types>
+
+    <!-- Account Summary Prompt Template -->
+    <types>
+        <members>Account_Summary</members>
+        <name>GenAiPromptTemplate</name>
+    </types>
+
+    <version>61.0</version>
+</Package>
